@@ -163,7 +163,7 @@ if { $validate_required } {
 }
 
 # Create project
-create_project ${_xil_proj_name_} ./${_xil_proj_name_} -part xcku040-ffva1156-2-i
+create_project $E:/git_vivado/git_vivado/Scripts/{_xil_proj_name_} ./${_xil_proj_name_} -part xcku040-ffva1156-2-i
 
 # Set the directory path for the new project
 set proj_dir [get_property directory [current_project]]
